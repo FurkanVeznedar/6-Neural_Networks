@@ -2,7 +2,7 @@
 #include "./DataHandle/inputdata.h"
 #include "./knn/knn.h"
 #include "./kMeans/kmeans.h"
-#include "./neuralNetwork/network.h"
+#include "./NeuralNetwork/network.h"
 
 void test1() {
     dataHandler *dh = new dataHandler();

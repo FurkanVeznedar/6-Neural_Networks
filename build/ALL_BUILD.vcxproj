@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{07779552-6F88-3E44-ABE5-3955CCBF3580}</Project>
       <Name>DataHandle</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\NeuralNetwork.vcxproj">
+      <Project>{0E1FE7BF-293A-32DA-AEB4-6E2A6B220682}</Project>
+      <Name>NeuralNetwork</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\Test.vcxproj">
       <Project>{8B89BB11-5A4D-3CBD-AB9F-509E3FF98371}</Project>
       <Name>Test</Name>
@@ -188,10 +192,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\KNN\knn.vcxproj">
       <Project>{E5F99AF2-4A4F-3BE3-8CB2-08E280621F28}</Project>
       <Name>knn</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\neuralNetwork.vcxproj">
-      <Project>{C358D417-9F5C-3CC4-8123-F7B2319BD6B0}</Project>
-      <Name>neuralNetwork</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

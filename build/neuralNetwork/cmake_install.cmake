@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/neuralNetwork
+# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/NeuralNetwork
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

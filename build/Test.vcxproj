@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>KNN\Debug\knn.lib;KMEANS\Debug\kMeans.lib;neuralNetwork\Debug\neuralNetwork.lib;DataHandle\Debug\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>KNN\Debug\knn.lib;KMEANS\Debug\kMeans.lib;neuralNetwork\Debug\NeuralNetwork.lib;DataHandle\Debug\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -153,7 +153,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>KNN\Release\knn.lib;KMEANS\Release\kMeans.lib;neuralNetwork\Release\neuralNetwork.lib;DataHandle\Release\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>KNN\Release\knn.lib;KMEANS\Release\kMeans.lib;neuralNetwork\Release\NeuralNetwork.lib;DataHandle\Release\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -194,7 +194,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>KNN\MinSizeRel\knn.lib;KMEANS\MinSizeRel\kMeans.lib;neuralNetwork\MinSizeRel\neuralNetwork.lib;DataHandle\MinSizeRel\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>KNN\MinSizeRel\knn.lib;KMEANS\MinSizeRel\kMeans.lib;neuralNetwork\MinSizeRel\NeuralNetwork.lib;DataHandle\MinSizeRel\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -234,7 +234,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>KNN\RelWithDebInfo\knn.lib;KMEANS\RelWithDebInfo\kMeans.lib;neuralNetwork\RelWithDebInfo\neuralNetwork.lib;DataHandle\RelWithDebInfo\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>KNN\RelWithDebInfo\knn.lib;KMEANS\RelWithDebInfo\kMeans.lib;neuralNetwork\RelWithDebInfo\NeuralNetwork.lib;DataHandle\RelWithDebInfo\DataHandle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -318,6 +318,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{07779552-6F88-3E44-ABE5-3955CCBF3580}</Project>
       <Name>DataHandle</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\NeuralNetwork.vcxproj">
+      <Project>{0E1FE7BF-293A-32DA-AEB4-6E2A6B220682}</Project>
+      <Name>NeuralNetwork</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\KMEANS\kMeans.vcxproj">
       <Project>{9AC243EF-4B78-3047-804E-D593C125362E}</Project>
       <Name>kMeans</Name>
@@ -325,10 +329,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\KNN\knn.vcxproj">
       <Project>{E5F99AF2-4A4F-3BE3-8CB2-08E280621F28}</Project>
       <Name>knn</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\neuralNetwork.vcxproj">
-      <Project>{C358D417-9F5C-3CC4-8123-F7B2319BD6B0}</Project>
-      <Name>neuralNetwork</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

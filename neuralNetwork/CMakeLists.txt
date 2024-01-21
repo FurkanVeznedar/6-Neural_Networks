@@ -4,5 +4,5 @@ set(SOURCE_FILE
     network.cpp
 )
 
-add_library(neuralNetwork ${SOURCE_FILE})
-target_link_libraries(neuralNetwork PUBLIC DataHandle)
+add_library(NeuralNetwork ${SOURCE_FILE})
+target_link_libraries(NeuralNetwork PUBLIC DataHandle)

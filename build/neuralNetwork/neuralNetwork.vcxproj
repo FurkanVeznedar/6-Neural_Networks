@@ -22,11 +22,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C358D417-9F5C-3CC4-8123-F7B2319BD6B0}</ProjectGuid>
+    <ProjectGuid>{0E1FE7BF-293A-32DA-AEB4-6E2A6B220682}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
-    <ProjectName>neuralNetwork</ProjectName>
+    <ProjectName>NeuralNetwork</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -60,20 +60,20 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">neuralNetwork.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">neuralNetwork</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">NeuralNetwork.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">NeuralNetwork</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">neuralNetwork.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">neuralNetwork</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">NeuralNetwork.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">NeuralNetwork</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">neuralNetwork.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">neuralNetwork</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">NeuralNetwork.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">NeuralNetwork</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">neuralNetwork.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">neuralNetwork</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">NeuralNetwork.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">NeuralNetwork</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
@@ -200,9 +200,9 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\neuralNetwork\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\NeuralNetwork\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/neuralNetwork/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/NeuralNetwork/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
 C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/neuralNetwork/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
@@ -215,7 +215,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/neuralNetwork/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/NeuralNetwork/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
 C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/neuralNetwork/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
@@ -228,7 +228,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/neuralNetwork/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/NeuralNetwork/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
 C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/neuralNetwork/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
@@ -241,7 +241,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\neuralNetwork\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/neuralNetwork/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/NeuralNetwork/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
 C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/neuralNetwork/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
@@ -257,9 +257,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\neuralNetwork\layer.cpp" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\neuralNetwork\neuron.cpp" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\neuralNetwork\network.cpp" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\NeuralNetwork\layer.cpp" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\NeuralNetwork\neuron.cpp" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\NeuralNetwork\network.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\build\ZERO_CHECK.vcxproj">

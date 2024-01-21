@@ -1,0 +1,676 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "DataHandle",
+					"jsonFile" : "directory-DataHandle-Debug-ea709ab703eafb98a06c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DataHandle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "KNN",
+					"jsonFile" : "directory-KNN-Debug-41fc01eabd5a37d28fde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "knn",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "KMEANS",
+					"jsonFile" : "directory-KMEANS-Debug-adb92f6ab4300ed70cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kMeans",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "neuralNetwork",
+					"jsonFile" : "directory-neuralNetwork-Debug-0b3bacf592b83b9a2a60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "NeuralNetwork",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-000b758219d98fabdc83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DataHandle::@301fc88d820a373a76ad",
+					"jsonFile" : "target-DataHandle-Debug-085fc75e5ac96dc260b7.json",
+					"name" : "DataHandle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NeuralNetwork::@a489bd7e2d96c27676fe",
+					"jsonFile" : "target-NeuralNetwork-Debug-6104b3016b20c21e07da.json",
+					"name" : "NeuralNetwork",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-Debug-9adf6d58be8e4a94ab39.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-cd449a756b9622593c16.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kMeans::@a6ab519d625a74aa8093",
+					"jsonFile" : "target-kMeans-Debug-374cd4284ccb4d9ac0da.json",
+					"name" : "kMeans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "knn::@920159a1e0896265ef7c",
+					"jsonFile" : "target-knn-Debug-975378f93155b5470e6a.json",
+					"name" : "knn",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "DataHandle",
+					"jsonFile" : "directory-DataHandle-Release-ea709ab703eafb98a06c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DataHandle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "KNN",
+					"jsonFile" : "directory-KNN-Release-41fc01eabd5a37d28fde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "knn",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "KMEANS",
+					"jsonFile" : "directory-KMEANS-Release-adb92f6ab4300ed70cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kMeans",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "neuralNetwork",
+					"jsonFile" : "directory-neuralNetwork-Release-0b3bacf592b83b9a2a60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "NeuralNetwork",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-000b758219d98fabdc83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DataHandle::@301fc88d820a373a76ad",
+					"jsonFile" : "target-DataHandle-Release-4de8639a110b056fee01.json",
+					"name" : "DataHandle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NeuralNetwork::@a489bd7e2d96c27676fe",
+					"jsonFile" : "target-NeuralNetwork-Release-d0f5f8a8b3cb277f4501.json",
+					"name" : "NeuralNetwork",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-Release-0f5b6ef5014e4c53fadd.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-cd449a756b9622593c16.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kMeans::@a6ab519d625a74aa8093",
+					"jsonFile" : "target-kMeans-Release-0fcef16144ef2ce8098a.json",
+					"name" : "kMeans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "knn::@920159a1e0896265ef7c",
+					"jsonFile" : "target-knn-Release-9ce0dde1c2fbf2897c08.json",
+					"name" : "knn",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "DataHandle",
+					"jsonFile" : "directory-DataHandle-MinSizeRel-ea709ab703eafb98a06c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DataHandle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "KNN",
+					"jsonFile" : "directory-KNN-MinSizeRel-41fc01eabd5a37d28fde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "knn",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "KMEANS",
+					"jsonFile" : "directory-KMEANS-MinSizeRel-adb92f6ab4300ed70cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kMeans",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "neuralNetwork",
+					"jsonFile" : "directory-neuralNetwork-MinSizeRel-0b3bacf592b83b9a2a60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "NeuralNetwork",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-000b758219d98fabdc83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DataHandle::@301fc88d820a373a76ad",
+					"jsonFile" : "target-DataHandle-MinSizeRel-71cdc9e1f9db0ff74474.json",
+					"name" : "DataHandle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NeuralNetwork::@a489bd7e2d96c27676fe",
+					"jsonFile" : "target-NeuralNetwork-MinSizeRel-6cfc63f1d0b1b8cfea64.json",
+					"name" : "NeuralNetwork",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-MinSizeRel-0f2ade0ce19a469a6b6d.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-cd449a756b9622593c16.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kMeans::@a6ab519d625a74aa8093",
+					"jsonFile" : "target-kMeans-MinSizeRel-09e4771814ff7b23cab7.json",
+					"name" : "kMeans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "knn::@920159a1e0896265ef7c",
+					"jsonFile" : "target-knn-MinSizeRel-0b473b13cfc299e90de1.json",
+					"name" : "knn",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "DataHandle",
+					"jsonFile" : "directory-DataHandle-RelWithDebInfo-ea709ab703eafb98a06c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DataHandle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "KNN",
+					"jsonFile" : "directory-KNN-RelWithDebInfo-41fc01eabd5a37d28fde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "knn",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "KMEANS",
+					"jsonFile" : "directory-KMEANS-RelWithDebInfo-adb92f6ab4300ed70cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kMeans",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "neuralNetwork",
+					"jsonFile" : "directory-neuralNetwork-RelWithDebInfo-0b3bacf592b83b9a2a60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "NeuralNetwork",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-000b758219d98fabdc83.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DataHandle::@301fc88d820a373a76ad",
+					"jsonFile" : "target-DataHandle-RelWithDebInfo-8dec0b13c579c5ccd99e.json",
+					"name" : "DataHandle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NeuralNetwork::@a489bd7e2d96c27676fe",
+					"jsonFile" : "target-NeuralNetwork-RelWithDebInfo-16ab30007603a7b6b6d7.json",
+					"name" : "NeuralNetwork",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-RelWithDebInfo-d9cbae5070fb1ebdb83f.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-cd449a756b9622593c16.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kMeans::@a6ab519d625a74aa8093",
+					"jsonFile" : "target-kMeans-RelWithDebInfo-44b3d26ee0a869f4d6e4.json",
+					"name" : "kMeans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "knn::@920159a1e0896265ef7c",
+					"jsonFile" : "target-knn-RelWithDebInfo-b124e3ece1756b8d3436.json",
+					"name" : "knn",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build",
+		"source" : "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

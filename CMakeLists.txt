@@ -5,7 +5,7 @@ set(SUB_DIRECTORIES
     DataHandle
     knn
     kMeans
-    neuralNetwork
+    NeuralNetwork
 )
 
 foreach(subdir ${SUB_DIRECTORIES})
@@ -19,4 +19,4 @@ target_compile_definitions(Test PRIVATE EUCLID)
 
 target_link_libraries(Test PUBLIC knn)
 target_link_libraries(Test PUBLIC kMeans)
-target_link_libraries(Test PUBLIC neuralNetwork)
+target_link_libraries(Test PUBLIC NeuralNetwork)
