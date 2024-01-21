@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\07-Programming\6-Neural_Networks\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3FF18113-4A98-3BBB-A469-75800706075C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/CMakeFiles/Test.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/DataHandle/CMakeFiles/DataHandle.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/KNN/CMakeFiles/knn.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/KMEANS/CMakeFiles/kMeans.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/neuralNetwork/CMakeFiles/neuralNetwork.dir

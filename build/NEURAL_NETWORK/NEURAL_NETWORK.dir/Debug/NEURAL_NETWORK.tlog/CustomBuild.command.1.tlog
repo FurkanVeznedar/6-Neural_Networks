@@ -1,0 +1,10 @@
+^C:\USERS\FURKA\DESKTOP\FURKAN VEZNEDAR\07-PROGRAMMING\6-NEURAL_NETWORKS\NEURAL_NETWORK\CMAKELISTS.TXT
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/07-Programming/6-Neural_Networks/build/NEURAL_NETWORK/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
